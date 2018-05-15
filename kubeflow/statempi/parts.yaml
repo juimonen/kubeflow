@@ -1,0 +1,37 @@
+{
+   "name": "statempi",
+   "apiVersion": "0.0.1",
+   "kind": "ksonnet.io/parts",
+   "description": "Prototypes for running statempi jobs.\n",
+   "author": "Jaska Uimonen <jaska.uimonen@intel.com>",
+   "contributors": [
+      {
+         "name": "Jaska Uimonen",
+         "email": "jaska.uimonen@intel.com"
+      }
+   ],
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/kubeflow/kubeflow"
+   },
+   "bugs": {
+      "url": "https://github.com/kubeflow/kubeflow/issues"
+   },
+   "keywords": [
+      "kubeflow",
+      "kubernetes",
+      "mpi",
+      "statempi",
+      "horovod"
+   ],
+   "quickStart": {
+      "prototype": "io.ksonnet.pkg.kubeflow",
+      "componentName": "statempi",
+      "flags": {
+         "name": "statempi",
+         "namespace": "default",
+      },
+      "comment": "Prototypes for running statempi jobs."
+   },
+   "license": "Apache 2.0"
+}

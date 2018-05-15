@@ -25,3 +25,6 @@ libraries:
   openmpi:
     version: master
     path: openmpi
+  statempi:
+    version: mpi
+    path: statempi
